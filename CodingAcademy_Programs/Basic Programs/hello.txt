@@ -1,0 +1,6 @@
+Hello, world!
+foo bar!!
+
+I am learning Python... kinda
+My name is OzzyCodes yooo!
+Just another line
