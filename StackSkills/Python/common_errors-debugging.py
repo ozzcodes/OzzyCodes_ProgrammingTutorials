@@ -11,29 +11,13 @@ Created on Thu Jan  3 13:40:25 2019
 print('starting here')
 
 # NameError:
-# varaible = 55
+# variable = 55
 # print(variable)
 
-
 # Expected indent:
-'''
 def func1():
     
 def func2():
     print(22)
-'''
 
 # Unexpected Indent
-'''
-def task():
-    print('1')
-print('2')
-    print('3')
-'''
-
-# Missing formatting function requirements
-'''
-print('Hey there, how are you?'
-x = [1,2,3,4,5,6
-'''
-

@@ -1,0 +1,16 @@
+pymongo
+matplotlib
+twisted
+graphviz
+numpy
+scipy
+tensorflow
+tensorflow-gpu
+keras
+ipython
+jupyter
+protobuf
+wheel
+guizero
+ipywidgets
+pyftpdlib
