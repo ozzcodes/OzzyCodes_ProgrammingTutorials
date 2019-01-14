@@ -1,0 +1,428 @@
+Default Report,,,,,,,
+Last Modified: 2019-01-13 18:40:49 MST,,,,,,,
+,,,,,,,
+,,,,,,,
+Q1 - Are you currently employed as a registered nurse?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Are you currently employed as a registered nurse?,1,2,1.04,0.19,0.04,26
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,96.15%,25,,,,
+2,No,3.85%,1,,,,
+,Total,100%,26,,,,
+,,,,,,,
+Q2 - How many YEARS have you been practicing as a registered nurse?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,How many YEARS have you been practicing as a registered nurse?,1,9,2.87,2.45,6.03,23
+,,,,,,,
+#,Answer,%,Count,,,,
+1,< 1,56.52%,13,,,,
+2,1,0.00%,0,,,,
+3,2,8.70%,2,,,,
+4,3,4.35%,1,,,,
+5,4,17.39%,4,,,,
+6,5,4.35%,1,,,,
+7,6,0.00%,0,,,,
+8,7,4.35%,1,,,,
+9,> 7,4.35%,1,,,,
+,Total,100%,23,,,,
+,,,,,,,
+Q3 - Do you provide direct care to patients for more than 50% of your work shift?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you provide direct care to patients for more than 50% of your work shift?,1,2,1.04,0.2,0.04,25
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,96.00%,24,,,,
+2,No,4.00%,1,,,,
+,Total,100%,25,,,,
+,,,,,,,
+Q4 - Does your employer provide you with clean scrubs/uniforms every shift or do you launder them yourself?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Does your employer provide you with clean scrubs/uniforms every shift or do you launder them yourself?,1,3,2.88,0.44,0.19,24
+,,,,,,,
+#,Answer,%,Count,,,,
+1,My employer provides me with clean scrubs/uniforms every shift,4.17%,1,,,,
+2,I sometimes need to launder my scrubs/uniforms,4.17%,1,,,,
+3,I always launder my scrubs/uniforms,91.67%,22,,,,
+,Total,100%,24,,,,
+,,,,,,,
+Q6 - In what type of clinical setting do you currently work as an RN? ,,,,,,,
+,,,,,,,
+Please choose the answer that best describes your setting.,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"In what type of clinical setting do you currently work as an RN? 
+
+Please choose the answer that best describes your setting. - Selected Choice",1,9,3.86,2.25,5.07,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Academic Medical Center,19.05%,4,,,,
+2,Acute Rehab Center,23.81%,5,,,,
+3,Community Health Center,0.00%,0,,,,
+4,Community Hospital,9.52%,2,,,,
+5,Home Health Care,23.81%,5,,,,
+6,Long Term Care Facility,14.29%,3,,,,
+7,Private Practice,4.76%,1,,,,
+8,Veterans Affairs Hospital,0.00%,0,,,,
+9,Other (Please specify),4.76%,1,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+#,Answer,%,Count,,,,
+School,School,100.00%,1,,,,
+,Total,100%,1,,,,
+,,,,,,,
+Q7 - How many patients do you have direct contact with during an average work shift? ,,,,,,,
+,,,,,,,
+Please use numbers only.,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"How many patients do you have direct contact with during an average work shift? 
+
+Please use numbers only.",2,40,14.76,12.28,150.75,21
+,,,,,,,
+"Q8 - How many patients do you care for during an average work shift who are on contact precautions for multidrug resistant organisms such as, but not limited to, methicillin-resistant Staphylococcus aureus (MRSA)? 
+
+Please use numbers only.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"How many patients do you care for during an average work shift who are on contact precautions for multidrug resistant organisms such as, but not limited to, methicillin-resistant Staphylococcus aureus (MRSA)? 
+
+Please use numbers only.",0,5,1.52,1.37,1.89,20
+,,,,,,,
+Q10 - Do you change into your scrubs/uniform at your place of work?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you change into your scrubs/uniform at your place of work?,1,3,2.9,0.43,0.18,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",4.76%,1,,,,
+2,"Yes, occasionally",0.00%,0,,,,
+3,"No, never",95.24%,20,,,,
+,Total,100%,21,,,,
+,,,,,,,
+"Q11 - Please indicate how many HOURS, on average, you wear your scrubs/uniform BEFORE a work shift.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"Please indicate how many HOURS, on average, you wear your scrubs/uniform BEFORE a work shift.",1,2,1.76,0.43,0.18,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,I never wear my scrubs/uniform before a work shift,23.81%,5,,,,
+2,Less than 2 hours,76.19%,16,,,,
+3,"2 hours or more, but less than 4 hours",0.00%,0,,,,
+4,"4 hours or more, but less than 6 hours",0.00%,0,,,,
+5,6 hours or more,0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q12 - Do you change out of your scrubs/uniform at your place of work?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you change out of your scrubs/uniform at your place of work?,2,3,2.95,0.21,0.05,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",0.00%,0,,,,
+2,"Yes, occasionally",4.76%,1,,,,
+3,"No, never",95.24%,20,,,,
+,Total,100%,21,,,,
+,,,,,,,
+"Q13 - Please indicate how many HOURS, on average, you wear your scrubs/uniform AFTER a work shift.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"Please indicate how many HOURS, on average, you wear your scrubs/uniform AFTER a work shift.",1,2,1.86,0.35,0.12,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,I never wear my scrubs/uniform after a work shift,14.29%,3,,,,
+2,Less than 2 hours,85.71%,18,,,,
+3,"2 hours or more, but less than 4 hours",0.00%,0,,,,
+4,"4 hours or more, but less than 6 hours",0.00%,0,,,,
+5,6 hours or more,0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q14 - Do you ever wear your scrubs/uniform on your days off?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you ever wear your scrubs/uniform on your days off?,2,3,2.9,0.29,0.09,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",0.00%,0,,,,
+2,"Yes, occasionally",9.52%,2,,,,
+3,"No, never",90.48%,19,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q15 - Do you remove your scrubs/uniform before entering your home?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you remove your scrubs/uniform before entering your home?,1,3,2.71,0.55,0.3,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",4.76%,1,,,,
+2,"Yes, occasionally",19.05%,4,,,,
+3,"No, never",76.19%,16,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q16 - Do you store your unwashed scrubs/uniform separate from other laundry items?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you store your unwashed scrubs/uniform separate from other laundry items?,1,3,2.62,0.58,0.33,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",4.76%,1,,,,
+2,"Yes, occasionally",28.57%,6,,,,
+3,"No, never",66.67%,14,,,,
+,Total,100%,21,,,,
+,,,,,,,
+"Q17 - Typically, how many DAYS after use do you launder your scrubs/uniform? 
+
+Please use numbers only.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"Typically, how many DAYS after use do you launder your scrubs/uniform? 
+
+Please use numbers only.",0,7,3.05,2.08,4.33,21
+,,,,,,,
+"Q19 - In general, how often do you launder your scrubs/uniform?",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"In general, how often do you launder your scrubs/uniform?",1,2,1.1,0.29,0.09,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,After wearing them for one shift,90.48%,19,,,,
+2,After wearing them for two shifts,9.52%,2,,,,
+3,After wearing them for three shifts,0.00%,0,,,,
+4,After wearing them for more than three shifts,0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q20 - Where do you usually launder your scrubs/uniform?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Where do you usually launder your scrubs/uniform? - Selected Choice,1,3,1.38,0.79,0.62,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Home laundry,80.95%,17,,,,
+2,Commercial Laundromat,0.00%,0,,,,
+3,Apartment complex shared laundry facility,19.05%,4,,,,
+4,Other (please specify),0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+Answer,%,Count,,,,,
+Total,100%,0,,,,,
+,,,,,,,
+"Q21 - Do you use hot water, exclusively, to wash your scrubs/uniform?",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"Do you use hot water, exclusively, to wash your scrubs/uniform?",1,3,2.05,0.72,0.52,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",23.81%,5,,,,
+2,"Yes, occasionally",47.62%,10,,,,
+3,"No, never",28.57%,6,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q22 - Is your washing machine one with an internal heater that allows you to set the temperature?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Is your washing machine one with an internal heater that allows you to set the temperature?,1,3,2.52,0.66,0.44,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,9.52%,2,,,,
+2,No,28.57%,6,,,,
+3,Not sure,61.90%,13,,,,
+,Total,100%,21,,,,
+,,,,,,,
+"Q23 - What temperature in degrees Fahrenheit do you set to wash your scrubs/uniform? 
+
+Please use numbers only. If you do not set the temperature, please leave blank.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"What temperature in degrees Fahrenheit do you set to wash your scrubs/uniform? 
+
+Please use numbers only. If you do not set the temperature, please leave blank.",100,100,100,0,0,1
+,,,,,,,
+Q24 - Do you ever wash your scrubs/uniform with any other items?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you ever wash your scrubs/uniform with any other items?,1,3,1.38,0.65,0.43,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",71.43%,15,,,,
+2,"Yes, occasionally",19.05%,4,,,,
+3,"No, never",9.52%,2,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q25 - Please indicate whether you ever wash your scrubs/uniform with any of the following household items. ,,,,,,,
+,,,,,,,
+You may select more than one answer.,,,,,,,
+#,Answer,%,Count,,,,
+1,With clothing,57.58%,19,,,,
+2,With bedding,9.09%,3,,,,
+3,With towels,33.33%,11,,,,
+4,With other items (please specify),0.00%,0,,,,
+,Total,100%,33,,,,
+,,,,,,,
+With other items (please specify),,,,,,,
+With other items (please specify) - Text,,,,,,,
+,,,,,,,
+Q26 - What detergent formulation do you typically use to wash your scrubs/uniform?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,What detergent formulation do you typically use to wash your scrubs/uniform? - Selected Choice,1,3,1.43,0.79,0.63,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Liquid,76.19%,16,,,,
+2,Powder,4.76%,1,,,,
+3,Single unit detergent pod,19.05%,4,,,,
+4,Other (please specify),0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+Answer,%,Count,,,,,
+Total,100%,0,,,,,
+,,,,,,,
+Q27 - Do you use any laundry additives when you wash your scrubs/uniform?,,,,,,,
+,,,,,,,
+You may select more than one answer.,,,,,,,
+#,Answer,%,Count,,,,
+1,"No, I don't use any laundry additives",60.87%,14,,,,
+2,Bleach,4.35%,1,,,,
+3,Stain remover,13.04%,3,,,,
+4,Fabric softener,17.39%,4,,,,
+5,Other (please specify),4.35%,1,,,,
+,Total,100%,23,,,,
+,,,,,,,
+Other (please specify),,,,,,,
+Other (please specify) - Text,,,,,,,
+,,,,,,,
+Q28 - Do you use a dryer to dry your scrubs/uniform?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you use a dryer to dry your scrubs/uniform?,1,1,1,0,0,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,100.00%,21,,,,
+2,No,0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q29 - How many MINUTES does it take take to dry your scrubs/uniform in the dryer?,,,,,,,
+,,,,,,,
+Please use numbers only.,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"How many MINUTES does it take take to dry your scrubs/uniform in the dryer?
+
+Please use numbers only.",20,90,57,19.41,376.67,21
+,,,,,,,
+"Q30 - If you do not use a dryer to dry your scrubs/uniform, how do you typically dry them?",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"If you do not use a dryer to dry your scrubs/uniform, how do you typically dry them? - Selected Choice",0,0,0,0,0,0
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Hang to dry indoors,0.00%,0,,,,
+2,Hang to dry outdoors,0.00%,0,,,,
+3,Fan to dry indoors,0.00%,0,,,,
+4,Other (please specify),0.00%,0,,,,
+,Total,100%,0,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+Answer,%,Count,,,,,
+Total,100%,0,,,,,
+,,,,,,,
+Q31 - Do you use an iron or steamer on your scrubs/uniform?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you use an iron or steamer on your scrubs/uniform?,1,3,2.81,0.5,0.25,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,"Yes, routinely",4.76%,1,,,,
+2,Yes occasionally,9.52%,2,,,,
+3,"No, never",85.71%,18,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q32 - Have you ever been provided with any guidelines for washing scrubs/uniforms at home?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Have you ever been provided with any guidelines for washing scrubs/uniforms at home?,2,2,2,0,0,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,0.00%,0,,,,
+2,No,100.00%,21,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Q33 - Do you follow the guidelines you were given?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you follow the guidelines you were given?,0,0,0,0,0,0
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Yes,0.00%,0,,,,
+2,No,0.00%,0,,,,
+,Total,100%,0,,,,
+,,,,,,,
+Q34 - Where did the guidelines you were given come from?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Where did the guidelines you were given come from? - Selected Choice,0,0,0,0,0,0
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Employer,0.00%,0,,,,
+2,Nursing School,0.00%,0,,,,
+3,Continuing Education,0.00%,0,,,,
+4,Nursing Organization (e.g. American Nurses Association),0.00%,0,,,,
+5,Other (please specify),0.00%,0,,,,
+,Total,100%,0,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+Answer,%,Count,,,,,
+Total,100%,0,,,,,
+,,,,,,,
+Q36 - How old are you (to the nearest birthday)? ,,,,,,,
+,,,,,,,
+Please use numbers only.,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"How old are you (to the nearest birthday)? 
+
+Please use numbers only.",23,38,27.76,4.02,16.18,21
+,,,,,,,
+Q37 - What is your gender?,,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,What is your gender? - Selected Choice,2,2,2,0,0,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Male,0.00%,0,,,,
+2,Female,100.00%,21,,,,
+3,Transgender,0.00%,0,,,,
+4,Other (please specify),0.00%,0,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+Answer,%,Count,,,,,
+Total,100%,0,,,,,
+,,,,,,,
+"Q38 - In what state are you licensed as a Registered Nurse? 
+
+If you are licensed in more than one state, please choose the state you practice in most often.",,,,,,,
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"In what state are you licensed as a Registered Nurse? 
+
+If you are licensed in more than one state, please choose the state you practice in most often. - Selected Choice",1,7,4.14,1.12,1.27,21
+,,,,,,,
+#,Answer,%,Count,,,,
+1,Alaska,4.76%,1,,,,
+2,Colorado,0.00%,0,,,,
+3,Florida,0.00%,0,,,,
+4,Massachusetts,85.71%,18,,,,
+5,Michigan,0.00%,0,,,,
+6,Texas,0.00%,0,,,,
+7,Other (please specify),9.52%,2,,,,
+,Total,100%,21,,,,
+,,,,,,,
+Data source misconfigured for this visualization,,,,,,,
+,,,,,,,
+#,Answer,%,Count,,,,
+Massachusetts,Massachusetts,50.00%,1,,,,
+New Hampshire ,New Hampshire ,50.00%,1,,,,
+,Total,100%,2,,,,
+,,,,,,,
+"Q39 - What additional information can you provide regarding the laundering of your scrubs/uniform (e.g. any guidelines you follow, questions you may have, ways you clean your scrubs/uniform, etc.)?",,,,,,,
+"What additional information can you provide regarding the laundering of your scrubs/uniform (e.g. any guidelines you follow, questions you may have, ways you clean your scrubs/uniform, etc.)?",,,,,,,
+"I do not follow any special routines. I was my scrubs in cold water, with liquid detergent, with my other clothes and towels. ",,,,,,,
+I was unaware that there were guidelines for cleaning scrubs. I am curious know the specific guidelines because I am interested in avoiding contracting any illnesses due to insufficiently cleaned scrubs.,,,,,,,
+none,,,,,,,
+I wash most of my clothes in cold water and dry on low. Sometimes I wash my scrubs with towels and use hot water and dry on medium. ,,,,,,,
+None,,,,,,,
+Adding baking soda in addtion to the detergent pod,,,,,,,
+N/A,,,,,,,
+,,,,,,,
+"Q40 - What other precautions do you take, if any, to prevent potential contaminants on your work scrubs/uniforms from entering your home or adversely affecting your family life?",,,,,,,
+"What other precautions do you take, if any, to prevent potential contaminants on your work scrubs/uniforms from entering your home or adversely affecting your family life?",,,,,,,
+None,,,,,,,
+I keep my work shoes in a plastic bag in my car. When I get to work I change into my works shoes. ,,,,,,,
+none,,,,,,,
+I remove my clothing as soon as I get home and most often shower right after my shift before cooking dinner or going to bed. ,,,,,,,
+If soiled I change at work before returning to my home ,,,,,,,
+"If my scrubs are visibly dirty, I remove them immediately. I also never wear my nursing shoes into my home.",,,,,,,
+Take off asap,,,,,,,
+Don't sit on couches when I get home until I change ,,,,,,,
+N/A,,,,,,,
