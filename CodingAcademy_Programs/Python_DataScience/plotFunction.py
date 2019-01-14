@@ -11,7 +11,7 @@ y2 = x ** 2
 y3 = x ** 3
 y4 = x ** 4
 
-f, axarr = plt.subplot(2, 2)
+f, axarr = plt.subplots(2, 2)
 axarr[0, 0].plot(x, y1)
 axarr[0, 0].axhline(0, color='red')
 axarr[0, 0].axvline(0, color='red')
@@ -30,4 +30,6 @@ axarr[1, 1].set_title('[1,1]')
 axarr[1, 1].axhline(0, color='red')
 axarr[1, 1].axhline(0, color='red')
 plt.suptitle('Plotting multiple functions!', color='blue', family='monospace', fontweight='bold')
-
+plt.savefig('multipleDraw.eps', format='eps', dpi=1000)
+plt.show()
+plt.close()
