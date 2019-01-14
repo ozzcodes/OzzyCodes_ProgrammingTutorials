@@ -7,7 +7,6 @@ Created on Fri Dec 28 23:26:24 2018
 """
 
 # Create own version of the UNIX function 'cat'
-
 import sys
 from optparse import OptionParser
 
