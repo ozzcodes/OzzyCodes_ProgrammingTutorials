@@ -20,4 +20,3 @@ print(scipy.version.version)
 print(constants.c)
 print(special.gamma(1))
 print(special.gamma(-10))
-

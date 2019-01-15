@@ -1,0 +1,18 @@
+from SQLite3.sqliteConnect import conn
+
+conn.execute('''DROP TABLE LXFISSUES;''')
+conn.execute('''DROP TABLE ISSUES;''')
+
+conn.execute('''CREATE TABLE LXFISSUES(
+    ID INT PRIMARY KEY NOT NULL,
+    NUMBER INT NOT NULL,
+    YEAR INT NOT NULL,
+    COMMENTS CHAR(50));''')
+
+conn.execute('''CREATE TABLE ISSUES(
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    NUMBER INT NOT NULL,
+    YEAR INT NOT NULL,
+    COMMENTS CHAR(50));''')
+
+conn.execute('''ALTER TABLE LXFISSUES ADD COLUMN EDITOR CHAR(100);''')
