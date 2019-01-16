@@ -1,5 +1,21 @@
+#!/usr/bin/python3
+from tkinter import *
+import sqlite3
+import tkinter.scrolledtext as ST
+import sys
 
-from SQLite3.gui import variable, text, END, c
+# First argument is the database name
+database = sys.argv[1]
+
+conn = sqlite3.connect(database)
+c = conn.cursor()
+
+root = Tk()
+canvas = Canvas(root, width=810, height=600)
+canvas.pack()
+
+text = ST.ScrolledText(canvas, width=35, height=20, borderwidth=0)
+text.pack()
 
 
 def callBack():
@@ -21,9 +37,22 @@ def callBack():
         text.insert('insert', '\t' + f + '\n')
 
 
+c.execute("SELECT name FROM sqlite_master WHERE type='table'")
 listOfTables = {'sqlite_master': 0}
 
-c.execute("SELECT name FROM main.sqlite_master WHERE type='table';")
 for record in c:
     # print(record[0])
     listOfTables[record[0]] = 0
+
+variable = StringVar(root)
+variable.set("sqlite_master")  # the default value
+w = OptionMenu(root, variable, *listOfTables)
+w.pack()
+
+Button(root, text='Quit', command=root.quit) \
+    .pack(side=BOTTOM, anchor=SE)
+Button(root, text='OK', command=callBack) \
+    .pack(side=TOP, anchor=SE)
+
+mainloop()
+conn.close()

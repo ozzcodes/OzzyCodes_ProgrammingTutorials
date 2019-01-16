@@ -39,7 +39,8 @@ w.pack()
 
 Button(root, text='Quit', command=root.quit)\
     .pack(side=BOTTOM, anchor=SE)
-Button(root, text='OK', command=callBack).pack(side=TOP,
-                                               anchor=SE)
+Button(root, text='OK', command=callBack)\
+    .pack(side=TOP, anchor=SE)
 
 mainloop()
+conn.close()
