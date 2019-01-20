@@ -1,0 +1,234 @@
+2019-01-19T17:55:08.316-0500 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] MongoDB starting : pid=14027 port=30002 dbpath=/home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/node3 64-bit host=ozzycodes-ML-LIQUID
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] db version v4.0.5
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0g  2 Nov 2017
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] modules: none
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] build environment:
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] options: { net: { port: 30002 }, processManagement: { fork: true }, replication: { replSet: "LXF" }, storage: { dbPath: "node3" }, systemLog: { destination: "file", logAppend: true, path: "c.log" } }
+2019-01-19T17:55:08.319-0500 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory /home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/node3 not found., terminating
+2019-01-19T17:55:08.319-0500 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2019-01-19T17:55:08.319-0500 I NETWORK  [initandlisten] removing socket file: /tmp/mongodb-30002.sock
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] now exiting
+2019-01-19T17:55:08.319-0500 I CONTROL  [initandlisten] shutting down with code:100
+2019-01-19T17:55:44.027-0500 I CONTROL  [main] ***** SERVER RESTARTED *****
+2019-01-19T17:55:44.034-0500 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] MongoDB starting : pid=14053 port=30002 dbpath=/home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/arbiter 64-bit host=ozzycodes-ML-LIQUID
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] db version v4.0.5
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] git version: 3739429dd92b92d1b0ab120911a23d50bf03c412
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.1.0g  2 Nov 2017
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] modules: none
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten] build environment:
+2019-01-19T17:55:44.037-0500 I CONTROL  [initandlisten]     distmod: ubuntu1804
+2019-01-19T17:55:44.038-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2019-01-19T17:55:44.038-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-01-19T17:55:44.038-0500 I CONTROL  [initandlisten] options: { net: { port: 30002 }, processManagement: { fork: true }, replication: { replSet: "LXF" }, storage: { dbPath: "arbiter" }, systemLog: { destination: "file", logAppend: true, path: "c.log" } }
+2019-01-19T17:55:44.038-0500 I STORAGE  [initandlisten] 
+2019-01-19T17:55:44.038-0500 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2019-01-19T17:55:44.038-0500 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2019-01-19T17:55:44.038-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7515M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-01-19T17:55:46.206-0500 I STORAGE  [initandlisten] WiredTiger message [1547938546:206052][14053:0x7f4e7a004a40], txn-recover: Set global recovery timestamp: 0
+2019-01-19T17:55:46.627-0500 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] 
+2019-01-19T17:55:47.296-0500 I CONTROL  [initandlisten] ** WARNING: soft rlimits too low. rlimits set to 63705 processes, 1048576 files. Number of processes should be at least 524288 : 0.5 times number of files.
+2019-01-19T17:55:47.302-0500 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: a2f12e68-5bb7-48b6-ba5c-1608a984b002
+2019-01-19T17:55:48.027-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/arbiter/diagnostic.data'
+2019-01-19T17:55:48.028-0500 I STORAGE  [initandlisten] createCollection: local.replset.oplogTruncateAfterPoint with generated UUID: 603f6fce-b6ea-4f0d-b1f8-c57d76ea263d
+2019-01-19T17:55:48.480-0500 I STORAGE  [initandlisten] createCollection: local.replset.minvalid with generated UUID: ad5a8e3f-cb7c-4ef9-b4c3-8fb06a04fc29
+2019-01-19T17:55:49.000-0500 W REPL     [ftdc] Rollback ID is not initialized yet.
+2019-01-19T17:55:49.106-0500 I REPL     [initandlisten] Did not find local voted for document at startup.
+2019-01-19T17:55:49.106-0500 I REPL     [initandlisten] Did not find local Rollback ID document at startup. Creating one.
+2019-01-19T17:55:49.106-0500 I STORAGE  [initandlisten] createCollection: local.system.rollback.id with generated UUID: 179a0a9b-0865-48f8-a29e-7da14a73ec1f
+2019-01-19T17:55:49.730-0500 I REPL     [initandlisten] Initialized the rollback ID to 1
+2019-01-19T17:55:49.731-0500 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument: Did not find replica set configuration document in local.system.replset
+2019-01-19T17:55:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T17:55:49.731-0500 I NETWORK  [initandlisten] waiting for connections on port 30002
+2019-01-19T17:55:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:00:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:00:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:05:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:05:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:10:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:10:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:15:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:15:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:20:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:20:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:25:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:25:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:30:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:30:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:35:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:35:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:40:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:40:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:45:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:45:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:50:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:50:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T18:55:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T18:55:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T19:00:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T19:00:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T19:05:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T19:05:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T19:10:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T19:10:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-19T19:15:49.731-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-19T19:15:49.731-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T00:55:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T00:55:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:00:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:00:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:05:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:05:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:10:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:10:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:15:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:15:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:20:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:20:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:25:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:25:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:30:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:30:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:35:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:35:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:40:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:40:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:45:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:45:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:50:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:50:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T01:55:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T01:55:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:00:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:00:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:05:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:05:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:10:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:10:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:15:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:15:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:20:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:20:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:25:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:25:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:30:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:30:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:35:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:35:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:40:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:40:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:45:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:45:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:50:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:50:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T02:55:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T02:55:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:00:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:00:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:05:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:05:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:10:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:10:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:15:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:15:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:20:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:20:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:25:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:25:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:30:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:30:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:35:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:35:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:40:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:40:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:45:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:45:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:50:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:50:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T03:55:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T03:55:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T04:00:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T04:00:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T04:05:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T04:05:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T04:10:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T04:10:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T04:15:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T04:15:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T04:20:36.092-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T04:20:36.093-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:30:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:30:44.123-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T15:35:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:35:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T15:40:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:40:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T15:45:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:45:44.123-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T15:50:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:50:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T15:55:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T15:55:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:00:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:00:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:05:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:05:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:10:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:10:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:15:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:15:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:20:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:20:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:25:43.010-0500 W FTDC     [ftdc] Uncaught exception in 'FileNotOpen: Failed to open interim file /home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/arbiter/diagnostic.data/metrics.interim.temp' in full-time diagnostic data capture subsystem. Shutting down the full-time diagnostic data capture subsystem.
+2019-01-20T16:25:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:25:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:30:44.121-0500 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: Replication has not yet been configured
+2019-01-20T16:30:44.122-0500 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: config.system.sessions does not exist
+2019-01-20T16:30:48.576-0500 E STORAGE  [thread1] WiredTiger error (2) [1548019848:576716][14053:0x7f4e715d4700], log-server: __directory_list_worker, 48: /home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/arbiter/journal: directory-list: opendir: No such file or directory Raw: [1548019848:576716][14053:0x7f4e715d4700], log-server: __directory_list_worker, 48: /home/ozzycodes/OzzyCodes_ProgrammingTutorials/CodingAcademy_Programs/MongoDB/Admins_Guide/arbiter/journal: directory-list: opendir: No such file or directory
+2019-01-20T16:30:48.576-0500 E STORAGE  [thread1] WiredTiger error (2) [1548019848:576807][14053:0x7f4e715d4700], log-server: __log_prealloc_once, 480: log pre-alloc server error: No such file or directory Raw: [1548019848:576807][14053:0x7f4e715d4700], log-server: __log_prealloc_once, 480: log pre-alloc server error: No such file or directory
+2019-01-20T16:30:48.576-0500 E STORAGE  [thread1] WiredTiger error (2) [1548019848:576828][14053:0x7f4e715d4700], log-server: __log_server, 1027: log server error: No such file or directory Raw: [1548019848:576828][14053:0x7f4e715d4700], log-server: __log_server, 1027: log server error: No such file or directory
+2019-01-20T16:30:48.576-0500 E STORAGE  [thread1] WiredTiger error (-31804) [1548019848:576845][14053:0x7f4e715d4700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic Raw: [1548019848:576845][14053:0x7f4e715d4700], log-server: __wt_panic, 523: the process must exit and restart: WT_PANIC: WiredTiger library panic
+2019-01-20T16:30:48.576-0500 F -        [thread1] Fatal Assertion 50853 at src/mongo/db/storage/wiredtiger/wiredtiger_util.cpp 409
+2019-01-20T16:30:48.576-0500 F -        [thread1] 
+
+***aborting after fassert() failure
+
+
+2019-01-20T16:30:48.591-0500 F -        [thread1] Got signal: 6 (Aborted).
+ 0x55a012f10ee1 0x55a012f100f9 0x55a012f105dd 0x7f4e786e6890 0x7f4e78321e97 0x7f4e78323801 0x55a011539923 0x55a011630416 0x55a0116a1d49 0x55a0114c3e2b 0x55a0114c424b 0x55a01170c592 0x7f4e786db6db 0x7f4e7840488f
+----- BEGIN BACKTRACE -----
+{"backtrace":[{"b":"55A010B26000","o":"23EAEE1","s":"_ZN5mongo15printStackTraceERSo"},{"b":"55A010B26000","o":"23EA0F9"},{"b":"55A010B26000","o":"23EA5DD"},{"b":"7F4E786D4000","o":"12890"},{"b":"7F4E782E3000","o":"3EE97","s":"gsignal"},{"b":"7F4E782E3000","o":"40801","s":"abort"},{"b":"55A010B26000","o":"A13923","s":"_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj"},{"b":"55A010B26000","o":"B0A416"},{"b":"55A010B26000","o":"B7BD49"},{"b":"55A010B26000","o":"99DE2B","s":"__wt_err_func"},{"b":"55A010B26000","o":"99E24B","s":"__wt_panic"},{"b":"55A010B26000","o":"BE6592"},{"b":"7F4E786D4000","o":"76DB"},{"b":"7F4E782E3000","o":"12188F","s":"clone"}],"processInfo":{ "mongodbVersion" : "4.0.5", "gitVersion" : "3739429dd92b92d1b0ab120911a23d50bf03c412", "compiledModules" : [], "uname" : { "sysname" : "Linux", "release" : "4.18.0-13-generic", "version" : "#14~18.04.1-Ubuntu SMP Thu Dec 6 14:09:52 UTC 2018", "machine" : "x86_64" }, "somap" : [ { "b" : "55A010B26000", "elfType" : 3, "buildId" : "DE0F316BF203AEAA2013022332E4A4CCBEF22B49" }, { "b" : "7FFD803DE000", "path" : "linux-vdso.so.1", "elfType" : 3, "buildId" : "E2140F8526CEF40AAC5E97D985A32DF5EC3221EC" }, { "b" : "7F4E79BB2000", "path" : "/usr/lib/x86_64-linux-gnu/libcurl.so.4", "elfType" : 3, "buildId" : "6A84841CA71AF31FF9C66ADFB4F928D0987F86EC" }, { "b" : "7F4E79997000", "path" : "/lib/x86_64-linux-gnu/libresolv.so.2", "elfType" : 3, "buildId" : "390E9CC4C215314B6D8ADE6D6E28F8518418039C" }, { "b" : "7F4E7951F000", "path" : "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1", "elfType" : 3, "buildId" : "A409BCD92DCDD3298E92C359876AC800FDD499AC" }, { "b" : "7F4E792B5000", "path" : "/usr/lib/x86_64-linux-gnu/libssl.so.1.1", "elfType" : 3, "buildId" : "9787FF1FFFE8D82268D89F6BFA3AF07B3E9D140F" }, { "b" : "7F4E790B1000", "path" : "/lib/x86_64-linux-gnu/libdl.so.2", "elfType" : 3, "buildId" : "25AD56E902E23B490A9CCDB08A9744D89CB95BCC" }, { "b" : "7F4E78EA9000", "path" : "/lib/x86_64-linux-gnu/librt.so.1", "elfType" : 3, "buildId" : "9826FBDF57ED7D6965131074CB3C08B1009C1CD8" }, { "b" : "7F4E78B0B000", "path" : "/lib/x86_64-linux-gnu/libm.so.6", "elfType" : 3, "buildId" : "A33761AB8FB485311B3C85BF4253099D7CABE653" }, { "b" : "7F4E788F3000", "path" : "/lib/x86_64-linux-gnu/libgcc_s.so.1", "elfType" : 3, "buildId" : "92E0BE1929D28508CF9C6D5754C7EB48C12255B3" }, { "b" : "7F4E786D4000", "path" : "/lib/x86_64-linux-gnu/libpthread.so.0", "elfType" : 3, "buildId" : "28C6AADE70B2D40D1F0F3D0A1A0CAD1AB816448F" }, { "b" : "7F4E782E3000", "path" : "/lib/x86_64-linux-gnu/libc.so.6", "elfType" : 3, "buildId" : "B417C0BA7CC5CF06D1D1BED6652CEDB9253C60D0" }, { "b" : "7F4E79E31000", "path" : "/lib64/ld-linux-x86-64.so.2", "elfType" : 3, "buildId" : "64DF1B961228382FE18684249ED800AB1DCEAAD4" }, { "b" : "7F4E780BE000", "path" : "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14", "elfType" : 3, "buildId" : "4F00E5207693FDC249DA42EC6472ACA6A7B929AE" }, { "b" : "7F4E77EA1000", "path" : "/usr/lib/x86_64-linux-gnu/libidn2.so.0", "elfType" : 3, "buildId" : "BA5BF9A5C44F48C647E9D8270A5421AE81CCAD61" }, { "b" : "7F4E77C85000", "path" : "/usr/lib/x86_64-linux-gnu/librtmp.so.1", "elfType" : 3, "buildId" : "69465D8AA6B19086ABF2455A703F9168BF82A69F" }, { "b" : "7F4E77A77000", "path" : "/usr/lib/x86_64-linux-gnu/libpsl.so.5", "elfType" : 3, "buildId" : "CDAF1F1946846941F9D06414EC8C812D131A168E" }, { "b" : "7F4E7782C000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2", "elfType" : 3, "buildId" : "00F419F64B0E70D8C5EEF7050369AA40B2A6E090" }, { "b" : "7F4E775DA000", "path" : "/usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2", "elfType" : 3, "buildId" : "9AFD2677E6CD2A67823EA74FDD8448F683028484" }, { "b" : "7F4E773CC000", "path" : "/usr/lib/x86_64-linux-gnu/liblber-2.4.so.2", "elfType" : 3, "buildId" : "445EBBF9B2F0FC928017DF247244256F56D431E1" }, { "b" : "7F4E771AF000", "path" : "/lib/x86_64-linux-gnu/libz.so.1", "elfType" : 3, "buildId" : "EF3E006DFE3132A41D4D4DC0E407D6EA658E11C4" }, { "b" : "7F4E76E31000", "path" : "/usr/lib/x86_64-linux-gnu/libunistring.so.2", "elfType" : 3, "buildId" : "62A44D226F3A74CF720305A52D3E876E214C248A" }, { "b" : "7F4E76ACC000", "path" : "/usr/lib/x86_64-linux-gnu/libgnutls.so.30", "elfType" : 3, "buildId" : "F67AAC89381F6ACFE9979B24D4002668C4F70ABE" }, { "b" : "7F4E76898000", "path" : "/usr/lib/x86_64-linux-gnu/libhogweed.so.4", "elfType" : 3, "buildId" : "842BDF0B0EAAB82E19F1EABFC38769F4040FBE31" }, { "b" : "7F4E76662000", "path" : "/usr/lib/x86_64-linux-gnu/libnettle.so.6", "elfType" : 3, "buildId" : "C20D4B3BA13FCDCC3BF6857689BA9FC70BE3F6A5" }, { "b" : "7F4E763E1000", "path" : "/usr/lib/x86_64-linux-gnu/libgmp.so.10", "elfType" : 3, "buildId" : "D40EA9B5EC5BC46799E4A412319617BD38BE9341" }, { "b" : "7F4E7610B000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.3", "elfType" : 3, "buildId" : "69FBCF425EE6DF03DE93B82FBC2FC33790E68A96" }, { "b" : "7F4E75ED9000", "path" : "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3", "elfType" : 3, "buildId" : "F400D5D643A7F9696DF0E6148FA99BEE6C1BDDF7" }, { "b" : "7F4E75CD5000", "path" : "/lib/x86_64-linux-gnu/libcom_err.so.2", "elfType" : 3, "buildId" : "C0CB7E35A4566A443F99DFBC1A54D3A0677C8A10" }, { "b" : "7F4E75ACA000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0", "elfType" : 3, "buildId" : "D78D71E8E016A534281B25B97CD7E5E9DB5FE00A" }, { "b" : "7F4E758AF000", "path" : "/usr/lib/x86_64-linux-gnu/libsasl2.so.2", "elfType" : 3, "buildId" : "ABB7E3F40302E6509DAD1F91DFB1F04B6A5FD072" }, { "b" : "7F4E7566E000", "path" : "/usr/lib/x86_64-linux-gnu/libgssapi.so.3", "elfType" : 3, "buildId" : "A1A98DB481968073636BBAECB561A3EA8ED198AE" }, { "b" : "7F4E7533F000", "path" : "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0", "elfType" : 3, "buildId" : "8DBD451EA5651283905E16FA7DFA9908688893A3" }, { "b" : "7F4E7512C000", "path" : "/usr/lib/x86_64-linux-gnu/libtasn1.so.6", "elfType" : 3, "buildId" : "6036B89A3BB671B32E01464C0C82BFA016186352" }, { "b" : "7F4E74F28000", "path" : "/lib/x86_64-linux-gnu/libkeyutils.so.1", "elfType" : 3, "buildId" : "F463E107B099910463BC32E837C73D341A52C27B" }, { "b" : "7F4E74D1F000", "path" : "/usr/lib/x86_64-linux-gnu/libheimntlm.so.0", "elfType" : 3, "buildId" : "C2376C5B831991591F1A67B976758185F86896D8" }, { "b" : "7F4E74A92000", "path" : "/usr/lib/x86_64-linux-gnu/libkrb5.so.26", "elfType" : 3, "buildId" : "69BDEE5FA0FEEDF317308BE850F78761861D520A" }, { "b" : "7F4E747F0000", "path" : "/usr/lib/x86_64-linux-gnu/libasn1.so.8", "elfType" : 3, "buildId" : "315D74995AAA32DE4D15BA25F335066988B1B230" }, { "b" : "7F4E745BA000", "path" : "/usr/lib/x86_64-linux-gnu/libhcrypto.so.4", "elfType" : 3, "buildId" : "6673972A1C24A89EBAFBAE696188A4CB26C6DDEB" }, { "b" : "7F4E743A4000", "path" : "/usr/lib/x86_64-linux-gnu/libroken.so.18", "elfType" : 3, "buildId" : "430827C33259C12248CF44B91A9A9821114376F5" }, { "b" : "7F4E7419C000", "path" : "/usr/lib/x86_64-linux-gnu/libffi.so.6", "elfType" : 3, "buildId" : "3555B5F599C9787DFDDBF9E8DF6F706B9044D985" }, { "b" : "7F4E73F73000", "path" : "/usr/lib/x86_64-linux-gnu/libwind.so.0", "elfType" : 3, "buildId" : "93A0931B1C2818F0EA224CE6FE5E31E84A9B55BB" }, { "b" : "7F4E73D64000", "path" : "/usr/lib/x86_64-linux-gnu/libheimbase.so.1", "elfType" : 3, "buildId" : "669D4CCE42FA4382796EFFCF0C16F459F4382C4C" }, { "b" : "7F4E73B1A000", "path" : "/usr/lib/x86_64-linux-gnu/libhx509.so.5", "elfType" : 3, "buildId" : "4B80C543356EE0AF9039EFE7C9EA1CC1F74C426A" }, { "b" : "7F4E73811000", "path" : "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", "elfType" : 3, "buildId" : "9FD7B69263297314C83BB205234E182BD4D8B86A" }, { "b" : "7F4E735D9000", "path" : "/lib/x86_64-linux-gnu/libcrypt.so.1", "elfType" : 3, "buildId" : "810686AF0D5FD350A4FB1CC4B5AFF44A05C102CB" } ] }}
+ mongod(_ZN5mongo15printStackTraceERSo+0x41) [0x55a012f10ee1]
+ mongod(+0x23EA0F9) [0x55a012f100f9]
+ mongod(+0x23EA5DD) [0x55a012f105dd]
+ libpthread.so.0(+0x12890) [0x7f4e786e6890]
+ libc.so.6(gsignal+0xC7) [0x7f4e78321e97]
+ libc.so.6(abort+0x141) [0x7f4e78323801]
+ mongod(_ZN5mongo32fassertFailedNoTraceWithLocationEiPKcj+0x0) [0x55a011539923]
+ mongod(+0xB0A416) [0x55a011630416]
+ mongod(+0xB7BD49) [0x55a0116a1d49]
+ mongod(__wt_err_func+0x90) [0x55a0114c3e2b]
+ mongod(__wt_panic+0x3F) [0x55a0114c424b]
+ mongod(+0xBE6592) [0x55a01170c592]
+ libpthread.so.0(+0x76DB) [0x7f4e786db6db]
+ libc.so.6(clone+0x3F) [0x7f4e7840488f]
+-----  END BACKTRACE  -----
