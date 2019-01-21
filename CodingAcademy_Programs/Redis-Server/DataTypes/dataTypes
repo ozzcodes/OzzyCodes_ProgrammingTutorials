@@ -1,0 +1,66 @@
+
+# Start the Redis-client server
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli
+
+# Create a list to be stored
+127.0.0.1:6379> LPUSH aList "123"
+(integer) 1
+127.0.0.1:6379> LPUSH aList "OzzyCodes"
+(integer) 2
+127.0.0.1:6379> RPUSH aList "LearnRedis"
+(integer) 3
+127.0.0.1:6379> RPUSH aList LearnRedis
+(integer) 4
+
+# Create a set to be stored
+127.0.0.1:6379> SADD aSet 32 22
+(integer) 2
+127.0.0.1:6379> SADD aSet 11 22
+(integer) 1  # Only counted as one integeras a duplicate number was found in same set
+
+# Print out the range in the aList list
+127.0.0.1:6379> LRANGE aList 0 -1
+1) "OzzyCodes"
+2) "123"
+3) "LearnRedis"
+4) "LearnRedis"
+
+# Print out the members of the set of aSet
+127.0.0.1:6379> SMEMBERS aSet
+1) "11"
+2) "22"
+3) "32"
+
+# Creating and listing contesnts of a Hash Set
+127.0.0.1:6379> HMSET anotherHash one 1 two 2 three 3
+OK
+127.0.0.1:6379> HGETALL anotherHash
+1) "one"
+2) "1"
+3) "two"
+4) "2"
+5) "three"
+6) "3"
+
+# Another Hash Set example and retrieval
+127.0.0.1:6379> HMSET myHash:1 CC 2000 Turbo 1 make VW colour Black
+OK
+127.0.0.1:6379> HGETALL myHash:1
+1) "CC"
+2) "2000"
+3) "Turbo"
+4) "1"
+5) "make"
+6) "VW"
+7) "colour"
+8) "Black"
+
+# Find the type of data used for a certain key using 'TYPE'
+127.0.0.1:6379> TYPE foo
+none
+127.0.0.1:6379> TYPE aList
+list
+127.0.0.1:6379> TYPE aSet
+set
+127.0.0.1:6379> TYPE myHash:1
+hash
