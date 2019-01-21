@@ -1,0 +1,63 @@
+
+# Start the Redis-server after installation:
+ozzycodes@ozzycodes-ML-LIQUID:~$ sudo /etc/init.d/redis-server start
+[ ok ] Starting redis-server (via systemctl): redis-server.service.
+
+# To view Redis listen port with the IP address
+ozzycodes@ozzycodes-ML-LIQUID:~$ ps ax | grep redis | grep -v grep
+9572 ?        Ssl    0:00 /usr/bin/redis-server 127.0.0.1:6379
+
+# To check everythings working correctly:
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli ping
+PONG
+
+# Stopping the Redis-server:
+ozzycodes@ozzycodes-ML-LIQUID:~$ sudo /etc/init.d/redis-server stop
+[ ok ] Stopping redis-server (via systemctl): redis-server.service.
+
+# Using redis-cli with no command:
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli
+127.0.0.1:6379> <
+
+# Using redis-cli with a command:
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli TIME
+1) "1548064833"
+2) "553922"
+
+# Or use it after initiating the redis-cli shell
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli
+127.0.0.1:6379> TIME
+1) "1548064938"
+2) "225169"
+127.0.0.1:6379> <
+
+# Finds help about a given category
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli help @generic
+
+# Finds help about a specific command; supported categories (@generic,
+#  @list, @set, @sorted_set, @hash, @pubsub, @transaction, @connection,
+#  @server, @scripting, @hyperlog)
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli
+127.0.0.1:6379> help LPUSH
+
+  LPUSH key value [value ...]
+  summary: Prepend one or multiple values to a list
+  since: 1.0.0
+  group: list
+
+127.0.0.1:6379> <
+
+# To find where redis stores its files:
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli config get dir
+1) "dir"
+2) "/var/lib/redis"
+
+# For setting and getting a key in the redis-cli
+ozzycodes@ozzycodes-ML-LIQUID:~$ redis-cli
+127.0.0.1:6379> GET aKey
+(nil)
+127.0.0.1:6379> SET aKey "FirstKey"
+OK
+127.0.0.1:6379> Get aKey
+"FirstKey"
+127.0.0.1:6379> <
