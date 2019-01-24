@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 waldorna@waldorna-ThinkPad-E570 ~ $ erl
 # Erlang/OTP 20 [erts-9.2] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:10] [kernel-poll:false]
 
@@ -61,3 +62,54 @@ Unkown!ok
 5> lud:patternMatch(50).
 Unkown!ok
 6> q().
+
+
+waldorna@waldorna-ThinkPad-E570 ~ $ erl
+#Erlang/OTP 20 [erts-9.2] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:10] [kernel-poll:false]
+#
+#Eshell V9.2  (abort with ^G)
+
+# Basic Function Examples - using 'b()' to print all active variables
+# and f(). to clean all variable assignments or specified variables.
+
+1> MyFloat = .987
+1> MyFloat = .987.
+* 1: syntax error before: '.'
+1> MyFloat = 0.987.
+0.987
+2> 10 - 5.
+5
+3> 4.9 - 0.5.
+4.4
+4> W = 1.
+1
+5> B = 2.
+2
+6> b().
+B = 2
+MyFloat = 0.987
+W = 1
+ok
+7> W - B.
+-1
+8> 2 = B.
+2
+9> f(MyFloat).
+ok
+10> f(MyFloat).
+ok
+11> b().
+B = 2
+W = 1
+ok
+12> f(doesNotExist).
+** exception error: no function clause matching call to f/1
+13> f(DoesNotExist).
+ok
+14> f().
+ok
+15> b().
+ok
+16> W - B.
+* 1: variable 'W' is unbound
+17>  <

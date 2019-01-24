@@ -1,5 +1,4 @@
 %%%-------------------------------------------------------------------
-%%% @author waldorna
 %%% @doc
 %%%
 %%% @end
@@ -17,5 +16,5 @@ readLines(FileName) ->
   end.
 
 
-process_line(Device) ->
+process_line(_Device) ->
   io:fwrite(".").
