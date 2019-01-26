@@ -1,0 +1,6 @@
+[package]
+name = "WC"
+version = "0.1.0"
+authors = ["ozzycodes"]
+
+[dependencies]
