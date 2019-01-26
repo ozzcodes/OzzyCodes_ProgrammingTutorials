@@ -1,0 +1,8 @@
+[package]
+name = "aa"
+version = "0.1.0"
+authors = ["ozzycodes <ajwaldro@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+ozzy = { path = "./../ozzy"}
