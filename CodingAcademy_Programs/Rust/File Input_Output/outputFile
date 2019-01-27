@@ -1,0 +1,3 @@
+    let mut total_lines = 0;
+        total_lines = total_lines + 1;
+    println!("Lines processed: {}", total_lines);
