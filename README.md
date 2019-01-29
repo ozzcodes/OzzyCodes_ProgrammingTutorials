@@ -1,4 +1,4 @@
-# Code Examples - Including;
+# Code Examples - Including:
  - Python
  - C
  - C Programming using UNIX
