@@ -1,0 +1,8 @@
+[package]
+name = "http_client"
+version = "0.1.0"
+authors = ["ozzycodes <>"]
+edition = "2018"
+
+[dependencies]
+hyper = "*"
