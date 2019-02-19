@@ -1,0 +1,20 @@
+
+lines.linewidth: 2
+axes.color_cycle: 6600CC, fcffe5, e22b29, 8bb9ff, 17452b, ff6289, 1242b6, ff9500
+
+
+axes.facecolor: f2f1f1
+figure.facecolor: f2f1f1
+axes.labelsize: large
+
+axes.grid: true
+grid.linewidth: 0.25
+grid.linestyle: -
+grid.color: c9c9c9
+
+font.size: 12
+
+xtick.major.size: 0
+xtick.minor.size: 0
+ytick.major.size: 0
+ytick.minor.size: 0
