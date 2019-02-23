@@ -12,11 +12,9 @@ att = pdr.DataReader("T", "yahoo", start, end)
 
 print(att.head())
 
-
 highs = att['High'].tolist()
 # Get the last price of 'High'
 print(highs[-1])
-
 
 highz = att['High']
 print(highz[-10])

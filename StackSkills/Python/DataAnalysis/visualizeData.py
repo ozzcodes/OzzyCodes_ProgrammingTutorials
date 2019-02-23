@@ -3,7 +3,6 @@ from matplotlib import style
 import datetime
 import pandas_datareader as pdr
 
-
 style.use('fivethirtyeight')
 
 start = datetime.datetime(2010, 1, 1)
