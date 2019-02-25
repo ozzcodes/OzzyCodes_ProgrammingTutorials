@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="875bf645-790f-4112-9b06-08608385ff5a" name="Default Changelist" comment="" />
+    <list default="true" id="875bf645-790f-4112-9b06-08608385ff5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/column_manipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StackSkills.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StackSkills.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/OzzyCodes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/OzzyCodes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +16,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/readCSVtoCSV.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/readPickle_toPickle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="483">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/column_manipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#20#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python/DataVisualization/parsingStockData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,6 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Python/DataAnalysis/readCSVtoCSV.py" />
+        <option value="$PROJECT_DIR$/Python/DataAnalysis/column_manipulation.py" />
+        <option value="$PROJECT_DIR$/Python/DataVisualization/parsingStockData.py" />
       </list>
     </option>
   </component>
@@ -50,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,13 +108,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/Lib/site-packages/win32/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -104,7 +139,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stackPlot">
+  <component name="RunManager" selected="Python.parsingStockData">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="StackSkills" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="convertingLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +178,25 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/convertingLists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parsingStockData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="StackSkills" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DataVisualization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataVisualization/parsingStockData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -151,6 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.parsingStockData" />
         <item itemvalue="Python.stackPlot" />
         <item itemvalue="Python.convertingLists" />
       </list>
@@ -170,11 +247,18 @@
       <workItem from="1550430453989" duration="75000" />
       <workItem from="1550721443672" duration="17000" />
       <workItem from="1550792249610" duration="4305000" />
+      <workItem from="1550953339454" duration="91000" />
+      <workItem from="1550953871461" duration="15000" />
+      <workItem from="1550953904052" duration="69000" />
+      <workItem from="1550953994572" duration="40000" />
+      <workItem from="1550954052115" duration="58000" />
+      <workItem from="1550954127453" duration="834000" />
+      <workItem from="1550959394299" duration="1547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4672000" />
+    <option name="totallyTimeSpent" value="7326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -183,8 +267,9 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="DB Browser" order="3" />
-      <window_info anchor="bottom" id="Tail" />
+      <window_info id="DB Browser" order="3" weight="0.32995737" />
+      <window_info id="Project Explorer" order="4" />
+      <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
@@ -195,12 +280,17 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" sideWeight="0.49932975" weight="0.042432815" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.041800644" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3290461" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290461" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.3290461" />
       <window_info anchor="bottom" id="DB Execution Console" order="13" />
       <window_info anchor="bottom" id="Statistic" order="14" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="15" />
+      <window_info anchor="bottom" id="Tail" order="16" />
+      <window_info anchor="bottom" id="Graph Database Console" order="17" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="18" />
+      <window_info anchor="bottom" id="Console" order="19" />
+      <window_info anchor="right" x="0" y="0" width="434" height="866" id="Documentation" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,6 +300,9 @@
       <window_info anchor="right" id="Cargo" order="6" />
       <window_info anchor="right" id="Json Parser" order="7" />
       <window_info anchor="right" id="Mongo Explorer" order="8" />
+      <window_info anchor="right" id="R Packages" order="9" />
+      <window_info anchor="right" id="Graph Database" order="10" />
+      <window_info anchor="right" id="R Graphics" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,8 +342,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/readCSVtoCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/WebProgramming/urlLibRequest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataVisualization/stockData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataVisualization/testStockAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4008">
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/readPickle_toPickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/column_manipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#20#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataVisualization/parsingStockData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
