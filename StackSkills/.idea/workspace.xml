@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="875bf645-790f-4112-9b06-08608385ff5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/declaringOutliers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/appendDataFrame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/concatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/joinDataFrames.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/DataAnalysis/mergingDataFrames.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/OzzyCodes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/OzzyCodes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/DataAnalysis/hdfstore.h5" beforeDir="false" afterPath="$PROJECT_DIR$/Python/DataAnalysis/hdfstore.h5" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,34 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py">
+        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/mergingDataFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="50" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="462">
+              <caret line="22" lean-forward="true" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/declaringOutliers.py">
+        <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/joinDataFrames.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="717">
+              <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -75,6 +59,10 @@
         <option value="$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py" />
         <option value="$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py" />
         <option value="$PROJECT_DIR$/Python/DataAnalysis/declaringOutliers.py" />
+        <option value="$PROJECT_DIR$/Python/DataAnalysis/concatenation.py" />
+        <option value="$PROJECT_DIR$/Python/DataAnalysis/appendDataFrame.py" />
+        <option value="$PROJECT_DIR$/Python/DataAnalysis/mergingDataFrames.py" />
+        <option value="$PROJECT_DIR$/Python/DataAnalysis/joinDataFrames.py" />
       </list>
     </option>
   </component>
@@ -145,26 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.declaringOutliers">
-    <configuration name="3d_ScatterPlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="StackSkills" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DataVisualization" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataVisualization/3d_ScatterPlot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.joinDataFrames">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="convertingLists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="appendDataFrame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +166,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/convertingLists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/appendDataFrame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="concatenation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="StackSkills" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DataAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/concatenation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,6 +198,9 @@
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/DataAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -225,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dropNAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="joinDataFrames" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,7 +226,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/joinDataFrames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fillingForward_BackwardNaN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mergingDataFrames" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="StackSkills" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +245,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/DataAnalysis/mergingDataFrames.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.joinDataFrames" />
+        <item itemvalue="Python.mergingDataFrames" />
+        <item itemvalue="Python.appendDataFrame" />
+        <item itemvalue="Python.concatenation" />
         <item itemvalue="Python.declaringOutliers" />
-        <item itemvalue="Python.3d_ScatterPlot" />
-        <item itemvalue="Python.convertingLists" />
-        <item itemvalue="Python.fillingForward_BackwardNaN" />
-        <item itemvalue="Python.dropNAN" />
       </list>
     </recent_temporary>
   </component>
@@ -296,11 +287,12 @@
       <workItem from="1550959394299" duration="1547000" />
       <workItem from="1551076626986" duration="1462000" />
       <workItem from="1551078112348" duration="4721000" />
+      <workItem from="1551119776290" duration="2304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13509000" />
+    <option name="totallyTimeSpent" value="15813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -443,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/IOoperations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-182" />
@@ -461,16 +446,6 @@
           <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="50" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,13 +473,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/dropNAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/fillingForward_BackwardNaN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/declaringOutliers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/concatenation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/appendDataFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="32" column="20" lean-forward="true" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/mergingDataFrames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python/DataAnalysis/joinDataFrames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
         </state>
       </provider>
     </entry>
