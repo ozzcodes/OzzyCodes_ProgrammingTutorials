@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Rust/File Input_Output/memoryMapped/Cargo.toml" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="ruby-2.5.0-p0" project-jdk-type="RUBY_SDK" />
+  <component name="RustProjectSettings">
+    <option name="explicitPathToStdlib" value="C:\Users\OzzyCodes\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\src" />
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.rustup/toolchains/stable-x86_64-pc-windows-msvc/bin" />
+  </component>
 </project>
