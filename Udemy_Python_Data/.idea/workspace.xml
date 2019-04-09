@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9f3f9cb-0d23-4e07-980f-b0f231fc3384" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JupyterNotebooks/Lists/List Slicing - Exercise_Py3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/JupyterNotebooks/Lists/List Slicing - Exercise_Py3.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/OzzyCodes_LIQUID_PC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JupyterNotebooks/Itteration/Kelly_HW2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,23 +12,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Kelly_HW2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Lists/List Slicing - Exercise_Py3.ipynb">
+        <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Regression_Analysis/Simple linear regression_with_comments.ipynb">
           <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\Programs\Git\bin\git.exe" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JupyterNotebooks/Itteration/Kelly_HW2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="176" />
-    <option name="y" value="176" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1288" />
+    <option name="y" value="-892" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -53,7 +87,7 @@
               <item name="Udemy_Python_Data" type="b2602c69:ProjectViewProjectNode" />
               <item name="Udemy_Python_Data" type="462c0819:PsiDirectoryNode" />
               <item name="JupyterNotebooks" type="462c0819:PsiDirectoryNode" />
-              <item name="Lists" type="462c0819:PsiDirectoryNode" />
+              <item name="Regression_Analysis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -64,14 +98,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Programs/Git/bin/git.exe" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.conda" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,8 +125,37 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Kelly_HW2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Udemy_Python_Data" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JupyterNotebooks/Itteration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JupyterNotebooks/Itteration/Kelly_HW2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Kelly_HW2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$PROJECT_DIR$/../.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,38 +167,61 @@
       <workItem from="1554433702902" duration="6210000" />
       <workItem from="1554689070088" duration="78000" />
       <workItem from="1554689166968" duration="3221000" />
+      <workItem from="1554759173159" duration="319000" />
+      <workItem from="1554759545101" duration="582000" />
+      <workItem from="1554760484916" duration="111000" />
+      <workItem from="1554760612834" duration="32000" />
+      <workItem from="1554760893306" duration="219000" />
+      <workItem from="1554761127697" duration="78000" />
+      <workItem from="1554761429918" duration="64000" />
+      <workItem from="1554761854567" duration="1025000" />
+      <workItem from="1554766963099" duration="451000" />
+      <workItem from="1554767435040" duration="4819000" />
+      <workItem from="1554848437602" duration="291000" />
+      <workItem from="1554848760792" duration="3707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9509000" />
+    <option name="totallyTimeSpent" value="21207000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="983" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.116204694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Jupyter" order="9" weight="0.32936078" />
-      <window_info anchor="bottom" id="Graph Database Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32914287" />
+      <window_info anchor="bottom" id="Jupyter" order="9" weight="0.32914287" />
+      <window_info anchor="bottom" id="Graph Database Console" order="10" weight="0.32914287" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32914287" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="13" side_tool="true" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Statistic" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Statistic" order="14" weight="0.32914287" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
-      <window_info anchor="bottom" id="GitLabIntegration" order="17" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="17" weight="0.32914287" />
       <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="bottom" id="GraphQL" order="19" weight="0.32914287" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -137,14 +229,62 @@
       <window_info anchor="right" id="JuliaSciView" order="4" />
       <window_info anchor="right" id="Mongo Explorer" order="5" />
       <window_info anchor="right" id="Graph Database" order="6" />
-      <window_info anchor="right" id="Json Parser" order="7" />
-      <window_info anchor="right" id="make" order="8" />
+      <window_info anchor="right" id="Json Parser" order="7" weight="0.32977587" />
+      <window_info anchor="right" id="make" order="8" weight="0.32977587" />
       <window_info anchor="right" id="SciView" order="9" />
       <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Remote Host" order="11" show_stripe_button="false" weight="0.32977587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116204694" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32914287" />
+      <window_info anchor="bottom" id="Jupyter" order="9" weight="0.32914287" />
+      <window_info anchor="bottom" id="Graph Database Console" order="10" weight="0.32914287" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32914287" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Statistic" order="14" weight="0.32914287" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="17" weight="0.32914287" />
+      <window_info anchor="bottom" id="Tail" order="18" />
+      <window_info anchor="bottom" id="GraphQL" order="19" weight="0.32914287" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="JuliaSciView" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Graph Database" order="6" />
+      <window_info anchor="right" id="Json Parser" order="7" weight="0.32977587" />
+      <window_info anchor="right" id="make" order="8" weight="0.32977587" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="10" />
+      <window_info anchor="right" id="Remote Host" order="11" show_stripe_button="false" weight="0.32977587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="D:/Programs/Git" />
+    </ignored-roots>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Udemy_Python_Data$Kelly_HW2.coverage" NAME="Kelly_HW2 Coverage Results" MODIFIED="1554850660930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/JupyterNotebooks/Itteration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Python Functions/Notable Built-In Functions in Python - Exercise_Py3.ipynb">
@@ -168,5 +308,57 @@
     <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Lists/List Slicing - Exercise_Py3.ipynb">
       <provider selected="true" editor-type-id="jupyter-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Create Lists with the range() Function - Exercise_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Use Conditional Statements and Loops Together - Lecture_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Use Conditional Statements and Loops Together - Exercise_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/All In - Solution_Py3.ipynb" />
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/All In - Exercise_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/All In - Lecture_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Iterating over Dictionaries - Solution_Py3.ipynb" />
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Iterating over Dictionaries - Lecture_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.software/CodeTime.txt" />
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Iterating over Dictionaries - Exercise_Py3.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/kelly_hw.py">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Itteration/Kelly_HW2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JupyterNotebooks/Regression_Analysis/Simple linear regression_with_comments.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
