@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import numpy
 import scipy
-from numpy import *
+from numpy import array, sin
 from scipy import constants, special
 
 # Numpy version and Example
