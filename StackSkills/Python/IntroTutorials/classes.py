@@ -1,18 +1,17 @@
 class calc:
-    
-    def add(x,y):
+
+    def add(x, y):
         answer = x + y
         print(answer)
-        
-    def sub(x,y):
+
+    def sub(x, y):
         answer = x - y
         print(answer)
-        
-    def mult(x,y):
+
+    def mult(x, y):
         answer = x * y
         print(answer)
-        
-    def div(x,y):
+
+    def div(x, y):
         answer = x / y
         print(answer)
-        
